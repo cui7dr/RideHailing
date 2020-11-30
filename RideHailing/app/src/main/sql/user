@@ -1,0 +1,14 @@
+--创建用户表
+DROP TABLE IF EXISTS "user";
+CREATE TABLE "user" (
+  "id" INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,
+  "account" TEXT NOT NULL,
+  "password" TEXT NOT NULL,
+  "flag" integer NOT NULL,
+  "createTime" text NOT NULL,
+  "updateTime" TEXT NOT NULL,
+  "spare1" TEXT,
+  "spare2" TEXT,
+  "spare3" TEXT
+);
+PRAGMA foreign_keys = true;
