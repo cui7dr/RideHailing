@@ -1,0 +1,27 @@
+--创建车辆表
+DROP TABLE IF EXISTS "car";
+CREATE TABLE "car" (
+  "id" INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,
+  "transport" TEXT,
+  "plate" TEXT,
+  "brand" TEXT,
+  "seat" INTEGER,
+  "color" TEXT,
+  "size" TEXT,
+  "run" TEXT,
+  "status" TEXT,
+  "organ" TEXT,
+  "illegal" INTEGER,
+  "fine" INTEGER,
+  "isDeal" INTEGER,
+  "first" TEXT,
+  "end" TEXT,
+  "context" TEXT,
+  "createTime" TEXT,
+  "updateTime" TEXT,
+  "spare1" TEXT,
+  "spare2" TEXT,
+  "spare3" TEXT
+);
+
+PRAGMA foreign_keys = true;
