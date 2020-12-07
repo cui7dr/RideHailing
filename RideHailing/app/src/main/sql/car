@@ -17,8 +17,8 @@ CREATE TABLE "car" (
   "first" TEXT,
   "end" TEXT,
   "context" TEXT,
-  "createTime" TEXT,
-  "updateTime" TEXT,
+  "createTime" TIMESTAMP DEFAULT (DATETIME('now', 'localtime')),
+  "updateTime" TIMESTAMP DEFAULT (DATETIME('now', 'localtime')),
   "spare1" TEXT,
   "spare2" TEXT,
   "spare3" TEXT
