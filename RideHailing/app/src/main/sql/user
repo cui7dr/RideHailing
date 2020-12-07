@@ -5,8 +5,8 @@ CREATE TABLE "user" (
   "account" TEXT NOT NULL,
   "password" TEXT NOT NULL,
   "flag" INTEGER NOT NULL,
-  "createTime" TEXT NOT NULL,
-  "updateTime" TEXT NOT NULL,
+  "createTime" TIMESTAMP DEFAULT (DATETIME('now', 'localtime')),
+  "updateTime" TIMESTAMP DEFAULT (DATETIME('now', 'localtime')),
   "spare1" TEXT,
   "spare2" TEXT,
   "spare3" TEXT
