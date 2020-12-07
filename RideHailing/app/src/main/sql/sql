@@ -1,0 +1,4 @@
+--用到的SQL语句
+
+--1.添加admin账户
+INSERT INTO 'user' ('account', 'password', 'flag') VALUES ('admin', '123456', 0);
