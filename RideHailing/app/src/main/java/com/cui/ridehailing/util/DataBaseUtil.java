@@ -30,8 +30,9 @@ public class DataBaseUtil extends SQLiteOpenHelper {
          */
         db.execSQL("CREATE TABLE 'user' ('id' INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT, " +
                 "'account' TEXT NOT NULL, 'password' TEXT NOT NULL, 'flag' INTEGER NOT NULL, " +
-                "'createTime' TEXT NOT NULL, 'updateTime' TEXT NOT NULL, 'spare1' TEXT, 'spare2' " +
-                "TEXT, 'spare3' TEXT);");
+                "'createTime' TIMESTAMP DEFAULT (DATETIME('now', 'localtime')), 'updateTime' " +
+                "TIMESTAMP DEFAULT (DATETIME('now', 'localtime')), 'spare1' TEXT, 'spare2' TEXT, " +
+                "'spare3' TEXT);");
 
         /**
          * 创建车主表
@@ -49,8 +50,9 @@ public class DataBaseUtil extends SQLiteOpenHelper {
          */
         db.execSQL("CREATE TABLE 'owner' ('id' INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT, 'name'" +
                 " TEXT, 'sex' TEXT, 'birth' TEXT, 'country' TEXT, 'plate' TEXT, 'address' TEXT, " +
-                "'license' TEXT, 'model' TEXT, 'start' TEXT, 'end' TEXT, 'createTime' TEXT, " +
-                "'updateTime' TEXT, 'spare1' TEXT, 'spare2' TEXT, 'spare3' TEXT);");
+                "'license' TEXT, 'model' TEXT, 'start' TEXT, 'end' TEXT, 'createTime' TIMESTAMP " +
+                "DEFAULT (DATETIME('now', 'localtime')), 'updateTime' TIMESTAMP DEFAULT (DATETIME" +
+                "('now', 'localtime')), 'spare1' TEXT, 'spare2' TEXT, 'spare3' TEXT);");
 
         /**
          * 创建车辆表
@@ -75,8 +77,13 @@ public class DataBaseUtil extends SQLiteOpenHelper {
                 "'transport' TEXT, 'plate' TEXT, 'brand' TEXT, 'seat' INTEGER, 'color' TEXT, " +
                 "'size' TEXT, 'run' TEXT, 'status' TEXT, 'organ' TEXT, 'illegal' INTEGER, 'fine' " +
                 "INTEGER, 'isDeal' INTEGER, 'first' TEXT, 'end' TEXT, 'context' TEXT, " +
-                "'createTime' TEXT, 'updateTime' TEXT, 'spare1' TEXT, 'spare2' TEXT, 'spare3' " +
-                "TEXT);");
+                "'createTime' TIMESTAMP DEFAULT (DATETIME('now', 'localtime')), 'updateTime' " +
+                "TIMESTAMP DEFAULT (DATETIME('now', 'localtime')), 'spare1' TEXT, 'spare2' TEXT, " +
+                "'spare3' TEXT);");
+
+        //创建管理员账户
+        db.execSQL("INSERT INTO 'user' ('account', 'password', 'flag') VALUES ('admin', '123456'," +
+                " 0)");
     }
 
     //修改表结构（添加字段
