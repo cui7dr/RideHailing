@@ -12,19 +12,6 @@ public class SharedPreferencesUtil {
 
     //存储SharedPreferences的文件名
     private static final String fileName = "save_name";
-    public static final String name = "test";
-    private static SharedPreferencesUtil instance;
-
-    public static SharedPreferencesUtil getInstance() {
-        if (instance == null) {
-            synchronized (SharedPreferencesUtil.class) {
-                if (instance == null) {
-                    instance = new SharedPreferencesUtil();
-                }
-            }
-        }
-        return instance;
-    }
 
     /**
      * 保存数据/修改数据
