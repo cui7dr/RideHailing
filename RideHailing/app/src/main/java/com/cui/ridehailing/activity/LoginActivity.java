@@ -2,6 +2,7 @@ package com.cui.ridehailing.activity;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.os.Bundle;
@@ -13,6 +14,7 @@ import android.widget.Toast;
 
 import com.cui.ridehailing.R;
 import com.cui.ridehailing.util.DataBaseUtil;
+import com.cui.ridehailing.util.SharedPreferencesUtil;
 
 public class LoginActivity extends AppCompatActivity {
 
@@ -57,7 +59,15 @@ public class LoginActivity extends AppCompatActivity {
                     Cursor cursor = sqldb.query("user", new String[]{"account", "password"},
                             "account = ?", new String[]{account}, null, null, null);
                     if (cursor.moveToNext() == true) {
-
+                        Intent intent = new Intent(LoginActivity.this, IndexActivity.class);
+                        //intent 传递参数
+                        intent.putExtra("account", account);
+                        intent.putExtra("password", password);
+                        //SharePreferences 存储数据
+                        SharedPreferencesUtil.saveData(LoginActivity.this, "account", account);
+                        SharedPreferencesUtil.saveData(LoginActivity.this, "password", password);
+                        startActivity(intent);
+                        finish();
                     } else {
                         Toast.makeText(LoginActivity.this, "账号或密码错误", Toast.LENGTH_SHORT).show();
                         return;
