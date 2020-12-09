@@ -6,4 +6,10 @@
     <string name="login_input_account">请输入账号</string>
     <string name="login_password">密码</string>
     <string name="login_input_password">请输入密码</string>
+    <!-- index -->
+    <string name="index_title">综合信息</string>
+    <string name="index_owner_manage">车主管理</string>
+    <string name="index_car_manage">车辆管理</string>
+    <string name="index_owner_info">车主信息</string>
+    <string name="index_car_info">车辆信息</string>
 </resources>
