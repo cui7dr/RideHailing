@@ -12,4 +12,8 @@
     <string name="index_car_manage">车辆管理</string>
     <string name="index_owner_info">车主信息</string>
     <string name="index_car_info">车辆信息</string>
+    <!-- menu -->
+    <string name="menu_add">添加信息</string>
+    <string name="menu_delete">删除信息</string>
+    <string name="menu_change">修改信息</string>
 </resources>
