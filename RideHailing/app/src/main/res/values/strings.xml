@@ -16,4 +16,16 @@
     <string name="menu_add">添加信息</string>
     <string name="menu_delete">删除信息</string>
     <string name="menu_change">修改信息</string>
+    <!-- car_info -->
+    <string name="car_info_title">车辆信息</string>
+    <string name="car_info_transport">道路运输证号</string>
+    <string name="car_info_address">地址</string>
+    <string name="car_info_plate">车牌号码</string>
+    <string name="car_info_vehicleModel">车辆型号</string>
+    <string name="car_info_seat">座位数</string>
+    <string name="car_info_color">车身颜色</string>
+    <string name="car_info_size">车辆尺寸</string>
+    <string name="car_info_businessScope">经营范围</string>
+    <string name="car_info_operationStatus">运营状态</string>
+    <string name="car_info_issuingAuthority">发证机关</string>
 </resources>
