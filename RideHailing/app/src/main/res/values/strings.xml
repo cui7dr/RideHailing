@@ -28,4 +28,17 @@
     <string name="car_info_businessScope">经营范围</string>
     <string name="car_info_operationStatus">运营状态</string>
     <string name="car_info_issuingAuthority">发证机关</string>
+    <!-- owner_info -->
+    <string name="owner_info_title">车主信息</string>
+    <string name="owner_info_name">姓名</string>
+    <string name="owner_info_sex">性别</string>
+    <string name="owner_info_birth">出生日期</string>
+    <string name="owner_info_country">国籍</string>
+    <string name="owner_info_address">住址</string>
+    <string name="owner_info_licenseNum">驾驶证号</string>
+    <string name="owner_info_drivingModels">准驾车型</string>
+    <string name="owner_info_plate">车牌号码</string>
+    <string name="owner_info_validPeriod">证件有效期</string>
+    <string name="owner_info_initialDate">初始领证日期：</string>
+    <string name="owner_info_effectiveDate">有效起始日期：</string>
 </resources>
