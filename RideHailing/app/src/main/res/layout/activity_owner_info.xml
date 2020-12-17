@@ -7,7 +7,7 @@
     <Toolbar
         android:layout_width="match_parent"
         android:layout_height="?attr/actionBarSize"
-        android:title="@string/owner_info_title"
+        android:title="@string/ownerInfo_title"
         android:titleTextColor="@color/black" />
 
     <LinearLayout
@@ -21,7 +21,7 @@
             android:layout_width="160dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="@string/owner_info_name"
+            android:text="@string/ownerInfo_name"
             android:textColor="@color/black"
             android:textSize="22dp" />
 
@@ -46,7 +46,7 @@
             android:layout_width="160dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="@string/owner_info_sex"
+            android:text="@string/ownerInfo_sex"
             android:textColor="@color/black"
             android:textSize="22dp" />
 
@@ -70,7 +70,7 @@
         <TextView
             android:layout_width="160dp"
             android:layout_height="wrap_content"
-            android:text="@string/owner_info_birth"
+            android:text="@string/ownerInfo_birth"
             android:textColor="@color/black"
             android:textSize="22dp" />
 
@@ -94,7 +94,7 @@
         <TextView
             android:layout_width="160dp"
             android:layout_height="wrap_content"
-            android:text="@string/owner_info_country"
+            android:text="@string/ownerInfo_country"
             android:textColor="@color/black"
             android:textSize="22dp" />
 
@@ -117,7 +117,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/owner_info_address"
+            android:text="@string/ownerInfo_address"
             android:textColor="@color/black"
             android:textSize="22dp" />
 
@@ -148,7 +148,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/owner_info_licenseNum"
+            android:text="@string/ownerInfo_licenseNum"
             android:textColor="@color/black"
             android:textSize="22dp" />
 
@@ -180,7 +180,7 @@
         <TextView
             android:layout_width="160dp"
             android:layout_height="wrap_content"
-            android:text="@string/owner_info_drivingModels"
+            android:text="@string/ownerInfo_drivingModels"
             android:textColor="@color/black"
             android:textSize="22dp" />
 
@@ -204,7 +204,7 @@
         <TextView
             android:layout_width="160dp"
             android:layout_height="wrap_content"
-            android:text="@string/owner_info_plate"
+            android:text="@string/ownerInfo_plate"
             android:textColor="@color/black"
             android:textSize="22dp" />
 
@@ -228,7 +228,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/owner_info_validPeriod"
+            android:text="@string/ownerInfo_validPeriod"
             android:textColor="@color/black"
             android:textSize="22dp" />
 
@@ -244,7 +244,7 @@
         <TextView
             android:layout_width="160dp"
             android:layout_height="wrap_content"
-            android:text="@string/owner_info_initialDate"
+            android:text="@string/ownerInfo_initialDate"
             android:textColor="@color/teal_700"
             android:textSize="21dp" />
 
@@ -268,7 +268,7 @@
         <TextView
             android:layout_width="160dp"
             android:layout_height="wrap_content"
-            android:text="@string/owner_info_effectiveDate"
+            android:text="@string/ownerInfo_effectiveDate"
             android:textColor="@color/teal_700"
             android:textSize="21dp" />
 
