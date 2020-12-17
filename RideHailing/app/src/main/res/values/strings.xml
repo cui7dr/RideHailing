@@ -16,29 +16,37 @@
     <string name="menu_add">添加信息</string>
     <string name="menu_delete">删除信息</string>
     <string name="menu_change">修改信息</string>
-    <!-- car_info -->
-    <string name="car_info_title">车辆信息</string>
-    <string name="car_info_transport">道路运输证号</string>
-    <string name="car_info_address">地址</string>
-    <string name="car_info_plate">车牌号码</string>
-    <string name="car_info_vehicleModel">车辆型号</string>
-    <string name="car_info_seat">座位数</string>
-    <string name="car_info_color">车身颜色</string>
-    <string name="car_info_size">车辆尺寸</string>
-    <string name="car_info_businessScope">经营范围</string>
-    <string name="car_info_operationStatus">运营状态</string>
-    <string name="car_info_issuingAuthority">发证机关</string>
-    <!-- owner_info -->
-    <string name="owner_info_title">车主信息</string>
-    <string name="owner_info_name">姓名</string>
-    <string name="owner_info_sex">性别</string>
-    <string name="owner_info_birth">出生日期</string>
-    <string name="owner_info_country">国籍</string>
-    <string name="owner_info_address">住址</string>
-    <string name="owner_info_licenseNum">驾驶证号</string>
-    <string name="owner_info_drivingModels">准驾车型</string>
-    <string name="owner_info_plate">车牌号码</string>
-    <string name="owner_info_validPeriod">证件有效期</string>
-    <string name="owner_info_initialDate">初始领证日期：</string>
-    <string name="owner_info_effectiveDate">有效起始日期：</string>
+    <!-- carInfo -->
+    <string name="carInfo_title">车辆信息</string>
+    <string name="carInfo_transport">道路运输证号</string>
+    <string name="carInfo_address">地址</string>
+    <string name="carInfo_plate">车牌号码</string>
+    <string name="carInfo_vehicleModel">车辆型号</string>
+    <string name="carInfo_seat">座位数</string>
+    <string name="carInfo_color">车身颜色</string>
+    <string name="carInfo_size">车辆尺寸</string>
+    <string name="carInfo_businessScope">经营范围</string>
+    <string name="carInfo_operationStatus">运营状态</string>
+    <string name="carInfo_issuingAuthority">发证机关</string>
+    <!-- ownerInfo -->
+    <string name="ownerInfo_title">车主信息</string>
+    <string name="ownerInfo_name">姓名</string>
+    <string name="ownerInfo_sex">性别</string>
+    <string name="ownerInfo_birth">出生日期</string>
+    <string name="ownerInfo_country">国籍</string>
+    <string name="ownerInfo_address">住址</string>
+    <string name="ownerInfo_licenseNum">驾驶证号</string>
+    <string name="ownerInfo_drivingModels">准驾车型</string>
+    <string name="ownerInfo_plate">车牌号码</string>
+    <string name="ownerInfo_validPeriod">证件有效期</string>
+    <string name="ownerInfo_initialDate">初始领证日期：</string>
+    <string name="ownerInfo_effectiveDate">有效起始日期：</string>
+    <!-- searchOwner -->
+    <string name="searchOwner_title">查询车主信息</string><!-- 同界面按钮共用 -->
+    <string name="searchOwner_licenseNum">请输入驾驶证号</string>
+    <string name="searchOwner_plate">请输入车牌号</string>
+    <!-- searchCar -->
+    <string name="searchCar_title">查询车辆信息</string><!-- 同界面按钮共用 -->
+    <string name="searchCar_plate">请输入车牌号</string>
+    <string name="searchCar_transport">请输入道路运输证号</string>
 </resources>
