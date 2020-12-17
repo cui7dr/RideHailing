@@ -53,8 +53,10 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_gravity="center"
+            android:background="@color/white"
             android:hint="@string/login_input_account"
             android:singleLine="true"
+            android:textColor="@color/black"
             android:textSize="20dp" />
 
     </LinearLayout>
@@ -78,9 +80,11 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_gravity="center"
+            android:background="@color/white"
             android:hint="@string/login_input_password"
             android:inputType="textPassword"
             android:singleLine="true"
+            android:textColor="@color/black"
             android:textSize="20dp" />
 
     </LinearLayout>
