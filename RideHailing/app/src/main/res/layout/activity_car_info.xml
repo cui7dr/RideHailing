@@ -10,7 +10,7 @@
         android:layout_width="match_parent"
         android:layout_height="50dp"
         android:elevation="2dp"
-        app:title="@string/car_info_title"
+        app:title="@string/carInfo_title"
         app:titleTextColor="@color/black" />
 
     <LinearLayout
@@ -22,7 +22,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/car_info_transport"
+            android:text="@string/carInfo_transport"
             android:textColor="@color/black"
             android:textSize="22dp" />
 
@@ -53,7 +53,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/car_info_address"
+            android:text="@string/carInfo_address"
             android:textColor="@color/black"
             android:textSize="22dp" />
 
@@ -85,7 +85,7 @@
         <TextView
             android:layout_width="160dp"
             android:layout_height="wrap_content"
-            android:text="@string/car_info_plate"
+            android:text="@string/carInfo_plate"
             android:textColor="@color/black"
             android:textSize="22dp" />
 
@@ -109,7 +109,7 @@
         <TextView
             android:layout_width="160dp"
             android:layout_height="wrap_content"
-            android:text="@string/car_info_vehicleModel"
+            android:text="@string/carInfo_vehicleModel"
             android:textColor="@color/black"
             android:textSize="22dp" />
 
@@ -134,7 +134,7 @@
             android:layout_width="160dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="@string/car_info_seat"
+            android:text="@string/carInfo_seat"
             android:textColor="@color/black"
             android:textSize="22dp" />
 
@@ -159,7 +159,7 @@
             android:layout_width="160dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="@string/car_info_color"
+            android:text="@string/carInfo_color"
             android:textColor="@color/black"
             android:textSize="22dp" />
 
@@ -182,7 +182,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/car_info_size"
+            android:text="@string/carInfo_size"
             android:textColor="@color/black"
             android:textSize="22dp" />
 
@@ -213,7 +213,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/car_info_businessScope"
+            android:text="@string/carInfo_businessScope"
             android:textColor="@color/black"
             android:textSize="22dp" />
 
@@ -245,7 +245,7 @@
         <TextView
             android:layout_width="160dp"
             android:layout_height="wrap_content"
-            android:text="@string/car_info_operationStatus"
+            android:text="@string/carInfo_operationStatus"
             android:textColor="@color/black"
             android:textSize="22dp" />
 
@@ -268,7 +268,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/car_info_issuingAuthority"
+            android:text="@string/carInfo_issuingAuthority"
             android:textColor="@color/black"
             android:textSize="22dp" />
 
