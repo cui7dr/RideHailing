@@ -26,16 +26,51 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="50dp"
+        android:layout_marginTop="30dp"
         android:gravity="center"
         android:orientation="vertical">
 
         <EditText
-            android:id="@+id/edtTxt_licenseNum"
+            android:id="@+id/edtTxt_searchOwner_licenseNum"
             android:layout_width="250dp"
             android:layout_height="40dp"
             android:background="@color/white"
             android:hint="@string/searchOwner_licenseNum"
+            android:singleLine="true"
+            android:layout_gravity="center"
+            android:textColor="@color/black"
+            android:textSize="20dp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="10dp" />
+
+        <Button
+            android:id="@+id/btn_searchOwner1"
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+            android:background="@color/purple_500"
+            android:text="@string/searchOwner_title"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/edtTxt_searchOwner_plate"
+            android:layout_width="250dp"
+            android:layout_height="40dp"
+            android:background="@color/white"
+            android:layout_gravity="center"
+            android:hint="@string/searchOwner_plate"
             android:singleLine="true"
             android:textColor="@color/black"
             android:textSize="20dp" />
@@ -45,7 +80,7 @@
             android:layout_height="10dp" />
 
         <Button
-            android:id="@+id/btn_searchOwner"
+            android:id="@+id/btn_searchOwner2"
             android:layout_width="250dp"
             android:layout_height="50dp"
             android:background="@color/purple_500"
