@@ -46,7 +46,9 @@
                 android:layout_weight="1"
                 android:gravity="center"
                 android:text="@string/index_owner_manage"
-                android:textSize="18dp" />
+                android:textColor="@color/white"
+                android:textSize="22dp"
+                android:textStyle="bold" />
 
             <View
                 android:layout_width="2dp"
@@ -60,7 +62,9 @@
                 android:layout_weight="1"
                 android:gravity="center"
                 android:text="@string/index_car_manage"
-                android:textSize="18dp" />
+                android:textColor="@color/white"
+                android:textSize="22dp"
+                android:textStyle="bold" />
 
         </LinearLayout>
 
@@ -79,7 +83,9 @@
                 android:layout_weight="1"
                 android:gravity="center"
                 android:text="@string/index_owner_info"
-                android:textSize="18dp" />
+                android:textColor="@color/white"
+                android:textSize="22dp"
+                android:textStyle="bold" />
 
             <View
                 android:layout_width="2dp"
@@ -93,7 +99,9 @@
                 android:layout_weight="1"
                 android:gravity="center"
                 android:text="@string/index_car_info"
-                android:textSize="18dp" />
+                android:textColor="@color/white"
+                android:textSize="22dp"
+                android:textStyle="bold" />
 
         </LinearLayout>
 
