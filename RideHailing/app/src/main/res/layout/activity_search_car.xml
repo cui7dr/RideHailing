@@ -28,11 +28,11 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="30dp"
         android:gravity="center"
-        android:orientation="vertical">
+        android:orientation="horizontal">
 
         <EditText
             android:id="@+id/edtTxt_searchCar_transport"
-            android:layout_width="250dp"
+            android:layout_width="200dp"
             android:layout_height="40dp"
             android:layout_gravity="center"
             android:background="@color/white"
@@ -41,16 +41,12 @@
             android:textColor="@color/black"
             android:textSize="20dp" />
 
-        <View
-            android:layout_width="match_parent"
-            android:layout_height="10dp" />
-
         <Button
             android:id="@+id/btn_searchCar1"
-            android:layout_width="250dp"
+            android:layout_width="100dp"
             android:layout_height="50dp"
             android:background="@color/purple_500"
-            android:text="@string/searchCar_title"
+            android:text="@string/searchCar_search"
             android:textColor="@color/white"
             android:textSize="20dp"
             android:textStyle="bold" />
@@ -62,11 +58,11 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
         android:gravity="center"
-        android:orientation="vertical">
+        android:orientation="horizontal">
 
         <EditText
             android:id="@+id/edtTxt_searchCar_plate"
-            android:layout_width="250dp"
+            android:layout_width="200dp"
             android:layout_height="40dp"
             android:layout_gravity="center"
             android:background="@color/white"
@@ -75,16 +71,12 @@
             android:textColor="@color/black"
             android:textSize="20dp" />
 
-        <View
-            android:layout_width="match_parent"
-            android:layout_height="10dp" />
-
         <Button
             android:id="@+id/btn_searchCar2"
-            android:layout_width="250dp"
+            android:layout_width="100dp"
             android:layout_height="50dp"
             android:background="@color/purple_500"
-            android:text="@string/searchCar_title"
+            android:text="@string/searchCar_search"
             android:textColor="@color/white"
             android:textSize="20dp"
             android:textStyle="bold" />
