@@ -82,7 +82,7 @@ public class SearchCarActivity extends AppCompatActivity {
             public void onClick(View v) {
                 plate = edtTxt_searchCar_plate.getText().toString();
                 if (plate.equals("")) {
-                    Toast.makeText(SearchCarActivity.this, "请重新输入道路运输证号", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(SearchCarActivity.this, "请重新输入车牌号", Toast.LENGTH_SHORT).show();
                     return;
                 }
                 Intent intent = new Intent(SearchCarActivity.this, CarInfoActivity.class);
