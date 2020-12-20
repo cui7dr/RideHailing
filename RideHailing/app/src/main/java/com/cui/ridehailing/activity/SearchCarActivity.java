@@ -21,8 +21,8 @@ public class SearchCarActivity extends AppCompatActivity {
     EditText edtTxt_searchCar_plate;
     Button btn_searchCar1;
     Button btn_searchCar2;
-    String transport;
-    String plate;
+    private String transport;
+    private String plate;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
