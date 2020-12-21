@@ -42,11 +42,13 @@
     <string name="ownerInfo_initialDate">初始领证日期：</string>
     <string name="ownerInfo_effectiveDate">有效起始日期：</string>
     <!-- searchOwner -->
-    <string name="searchOwner_title">查询车主信息</string><!-- 同界面按钮共用 -->
+    <string name="searchOwner_title">查询车主信息</string>
     <string name="searchOwner_licenseNum">请输入驾驶证号</string>
     <string name="searchOwner_plate">请输入车牌号</string>
+    <string name="searchOwner_search">查询</string>
     <!-- searchCar -->
-    <string name="searchCar_title">查询车辆信息</string><!-- 同界面按钮共用 -->
+    <string name="searchCar_title">查询车辆信息</string>
     <string name="searchCar_plate">请输入车牌号</string>
     <string name="searchCar_transport">请输入道路运输证号</string>
+    <string name="searchCar_search">查询</string>
 </resources>
