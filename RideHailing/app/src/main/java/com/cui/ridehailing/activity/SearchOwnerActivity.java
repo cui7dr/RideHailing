@@ -70,7 +70,7 @@ public class SearchOwnerActivity extends AppCompatActivity {
                     SharedPreferencesUtil.saveData(SearchOwnerActivity.this, "model", model);
                     SharedPreferencesUtil.saveData(SearchOwnerActivity.this, "start", start);
                     SharedPreferencesUtil.saveData(SearchOwnerActivity.this, "end", end);
-                    SharedPreferencesUtil.saveData(SearchOwnerActivity.this,"licensNum",licenseNum);
+                    SharedPreferencesUtil.saveData(SearchOwnerActivity.this,"licenseNum",licenseNum);
                     startActivity(intent);
                     finish();
                 } else {
