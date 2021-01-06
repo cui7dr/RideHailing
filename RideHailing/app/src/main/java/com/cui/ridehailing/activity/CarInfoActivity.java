@@ -34,6 +34,8 @@ public class CarInfoActivity extends AppCompatActivity {
     private String operationStatus;
     private String issuingAuthority;
 
+    private String account;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -42,11 +44,22 @@ public class CarInfoActivity extends AppCompatActivity {
     }
 
     private void initView() {
+        account = getIntent().getStringExtra("account");
+
         tb_carInfo_menu = (Toolbar) findViewById(R.id.tb_carInfo_menu);
-        tb_carInfo_menu.inflateMenu(R.menu.menus);
+        tb_carInfo_menu.inflateMenu(R.menu.menus_manager);
         tb_carInfo_menu.setOnMenuItemClickListener(new Toolbar.OnMenuItemClickListener() {
             @Override
             public boolean onMenuItemClick(MenuItem item) {
+                switch (item.getItemId()) {
+                    case R.id.option_more:
+                        Intent intent = new Intent(CarInfoActivity.this, MoreCarInfoActivity.class);
+                        intent.putExtra("account", account);
+                        intent.putExtra("plate", plate);
+                        startActivity(intent);
+                        finish();
+                        break;
+                }
                 return false;
             }
         });
