@@ -12,10 +12,12 @@
     <string name="index_car_manage">车辆管理</string>
     <string name="index_owner_info">车主信息</string>
     <string name="index_car_info">车辆信息</string>
-    <!-- menu -->
+    <!-- menus_manager -->
     <string name="menu_add">添加信息</string>
     <string name="menu_delete">删除信息</string>
     <string name="menu_change">修改信息</string>
+    <!-- menus_carInfo -->
+    <string name="menu_more">更多信息</string>
     <!-- carInfo -->
     <string name="carInfo_title">车辆信息</string>
     <string name="carInfo_transport">道路运输证号</string>
@@ -51,4 +53,20 @@
     <string name="searchCar_plate">请输入车牌号</string>
     <string name="searchCar_transport">请输入道路运输证号</string>
     <string name="searchCar_search">查询</string>
+    <!-- moreCarInfo -->
+    <string name="more_title">更多信息</string>
+    <string name="more_violationRecords">违章记录</string>
+    <string name="more_currentItinerary">当前行程</string>
+    <string name="more_illegalSubmit">违法提交</string>
+    <!-- record -->
+    <string name="record_number">违法次数</string>
+    <string name="record_fine">罚款</string>
+    <string name="record_dealWith">是否处理</string>
+    <string name="record_noResult">恭喜你，没有违法记录</string>
+    <!-- stroke -->
+    <string name="stroke_title">当前行程</string>
+    <string name="stroke_vehicleModel">车辆型号</string>
+    <string name="stroke_ownerName">车主姓名</string>
+    <string name="stroke_start">起点</string>
+    <string name="stroke_end">终点</string>
 </resources>
