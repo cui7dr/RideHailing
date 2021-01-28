@@ -24,6 +24,7 @@ public class MoreCarInfoActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_more_car_info);
+        initView();
     }
 
     private void initView() {
@@ -65,13 +66,12 @@ public class MoreCarInfoActivity extends AppCompatActivity {
                 finish();
             }
         });
-
     }
 
     @Override
     public boolean onKeyDown(int keyCode, KeyEvent event) {
         if (keyCode == KeyEvent.KEYCODE_BACK) {
-            Intent intent = new Intent(this, SearchCarActivity.class);
+            Intent intent = new Intent(MoreCarInfoActivity.this, CarInfoActivity.class);
             startActivity(intent);
             finish();
         }
