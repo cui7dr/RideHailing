@@ -5,7 +5,7 @@
     android:orientation="vertical">
 
     <Toolbar
-        android:id="@+id/tv_record_title"
+        android:id="@+id/tb_record_title"
         android:layout_width="match_parent"
         android:layout_height="?attr/actionBarSize"
         android:gravity="center"
